@@ -1,0 +1,24 @@
+nav {
+    display: flex;
+    background-color: #0c2861;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 10%;
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 15%;
+    margin-right: auto;
+}
+
+input {
+    width: 100%;
+    border-radius: 5px;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 5px 10px;
+    box-sizing: border-box;
+}

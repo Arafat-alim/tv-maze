@@ -1,0 +1,20 @@
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.card-container {
+    display: flex;
+    border-radius: 6px;
+    color: #333;
+    background: #eee;
+    padding: 1rem;
+    box-shadow: 0 0 1rem #000 inset;
+    overflow-x: auto;
+    position: relative;
+
+}
+
+.card-container::-webkit-scrollbar {
+    display: none;
+}
